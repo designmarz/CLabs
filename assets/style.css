@@ -1,0 +1,93 @@
+body {
+	font-family: helvetica;
+	background-color: #F1F1F1;
+/*	background-image: url(CLabsbw.png);
+	background-size: cover;*/
+}
+
+a.postfix.button.expand{
+	background-color: #2196F3;
+}
+
+a.postfix.button.expand:hover {
+	background-color: #1976D2;
+}
+
+
+.features {
+	text-align: center; }
+	.features hr {
+		width: 25%;
+		margin: 1rem auto; }
+		.features .round-icon {
+			
+			border-radius: 50%;
+			display: table;
+			height: 100px;
+			margin: -61px auto 1rem;
+			width: 100px;
+			font-size: 3rem; }
+			.features .round-icon span {
+				color: #fff;
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle; }
+				@media only screen and (max-width: 40em) {
+					.features .columns {
+						margin-bottom: 5rem; } }
+
+#Clogo {
+	width: 85%;
+}
+
+#status {
+	text-align: right;
+}
+.row {
+	max-width: 75rem
+}
+
+.round-icon:hover:not(.disabled), .round-icon:focus:not(.disabled){
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.round-icon {
+	-webkit-transition: all 550ms ease-in-out;
+	-moz-transition: all 550ms ease-in-out;
+	transition: all 550ms ease-in-out;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+.active:hover {
+	background-color: #26892A;
+}
+
+.disabled {
+	background-color: #C8C8C8;
+}
+
+.row .row {
+  margin: 0;
+  max-width: none;
+  width: auto;
+}
+
+.panel {
+  zoom: 0.8;
+}
+
+.table-icon {
+  float: right;
+}	
+.tooLow {
+  margin-top: -135px;
+}
+
+table#details_table {
+  width: 102%;
+  border: none;	
+  border-spacing: 0px;
+  background-color: #C8C8C8;
+}

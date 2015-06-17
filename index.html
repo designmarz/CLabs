@@ -1,11 +1,199 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
 <head>
-	<meta charset="UTF-8">
-	<title>Catalina Labs</title>
-	<link href="style.css" type="text/css" rel="stylesheet"></link>
-	<script type="text/javascript" src="app.js"></script>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>C Labs</title>
+	<link rel="stylesheet" href="foundation-5.5.2/css/foundation.css"/>
+	<link rel="stylesheet" href="assets/style.css"/>
+	<link rel="stylesheet" href="foundation-icons/foundation-icons.css"/>
+	<script src="assets/jquery-1.11.3.min.js"></script>
+	<script src="foundation-5.5.2/js/vendor/modernizr.js"></script>
+	<script src="assets/app.js"></script>
+
 </head>
 <body>
+	<br>
+	<div class="row">
+		<div class="large-3 columns">
+			<h1><img src="assets/clabsBW.png" id="Clogo"></h1>
+		</div>
+		<div class="large-9 columns right">
+			<div id="status"><p>Version: 0.9
+			<br>
+			IoT Gateway status:
+				<span id="statusColor" style="color: green; font-weight: 700;">Online</span> 
+			</p>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="row">
+	<hr>
+	<div class="large-9 columns">
+		<div class="large-3 columns">
+			<input type="text" placeholder="Enter IP" />
+			<a href="#" class="postfix button expand">Connect</a>
+		</div>
+		<!-- <div class="large-7 columns"> -->
+		<br>
+		<br>
+		<br>
+		<div class="row features">
+			<a href="#">
+				<div class="medium-3 columns">
+					<div class="round-icon active">
+						<span class="fi-bluetooth"></span>
+					</div>
+				</a>
+				<a href="#">
+					<h4>IoT BLE</h4>
+					<h5 id="iotBLEStatus">Enabled</h5>
+				</a>
+				<hr>
+				<p class="widgetDesc">Use this network for your widgets as it is better for IoT</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="medium-3 columns">
+				<div class="round-icon active">
+					<span class="fi-lock"></span>
+				</div>
+				<h4>Safe password</h4>
+				<h5 id="SafePasswordStatus">Set</h5>
+			</a>
+			<hr>
+			<p class="widgetDesc">You set a custom password for your widgets</p>
+		</div>
+	</a>
+	<a href="#">
+		<div class="medium-3 columns">
+			<div class="round-icon disabled">
+				<span class="fi-video"></span>
+			</div>
+		</a>
+		<a href="#">
+			<h4>Video Network</h4>
+			<h5 id="TVStatus">Disabled</h5>
+		</a>
+		<hr>
+		<p class="widgetDesc">Anyone TVs within range will be able to stream</p>
+	</div>
+</div>
+
+<hr>
+
+
+</div>
+<div class="large-3 columns">
+	<div class="panel">
+		<p>Basic Option: <br> We will setup the following:</p>
+		<ol>
+			<li>Associate your new IoT widgets to this network</li>
+			<li>Secure access to your home - we will change the password for the administrator</li>
+			<li>Setup a video streaming network for Apple and Chromecast</li>
+		</ol>
+
+		<p>Secure Option: <br> We will setup the following:</p>
+		<ol>
+			<li>All of the above,</li>
+			<li>Change your access settings - this will prevent malware etc from entering your home, </li>
+			<li>Prevent remote access to your home</li>
+			<li>Check the version of firmware on your IoT Hub to see if it needs to be upgraded.</li>
+
+		</ol>
+
+	</div>
+</div>
+<div class="large-9 columns tooLow">
+	<div class="medium-3 columns">
+		<a href="#" class="postfix button expand">Basic Options</a>
+		<a href="#" class="postfix button expand">Secure Options</a>
+		<a href="#" class="postfix button expand">Reset to factory defaults</a>
+		<a href="#" target="_blank">Custom</a>
+	</div>
+	<div class="large-9 columns">
+		<table id="details_table">
+			<tr>
+			</tr>
+			<tr>
+				<td><h4>Setting up firewall<span class="fi-arrow-down table-icon"></span></h4>
+					<p>This make blah blah</p>
+				</td>
+
+			</tr>
+			<tr>
+				<td colspan="5">
+					<p>additional custom info is here (for Record 1)</p>
+				</td>
+			</tr>
+			<tr>
+				<td><h4>Setting custom passwords<span class="fi-arrow-down table-icon"></span></h4>
+					<p>This make blah blah</p></td>
+				</tr>
+				<tr>
+					<td colspan="5">
+						<p>additional custom info is here (for Record 2)</p>
+					</td>
+				</tr>
+				<tr>
+					<td><h4>Enabling Bluetooth Low Energy and Zigbee<span class="fi-arrow-down table-icon"></span></h4>
+						<p>This make blah blah</p></td>
+					</tr>
+					<tr>
+						<td colspan="5">
+							<p>additional custom info is here (for Record 3)</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td><h4>Enabling a Video Network<span class="fi-arrow-down table-icon"></span></h4>
+							<p>This make blah blah</p></td>
+						</tr>
+						<tr>
+							<td colspan="5">
+								<p>additional custom info is here (for Record 4)</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td><h4>Done configuring your network with streaming settings</h4>
+								<!-- <p>This make blah blah</p></td> -->
+							</tr>
+<!--     <tr>
+        <td colspan="5">
+			<p>additional custom info is here (for Record 1)</p> 
+        </td>
+    </tr> -->
+</table>
+</div>
+</div>
+<div class="row">
+	<hr/>
+</div>
+<footer class="row">
+	<div class="large-12 columns">
+		<div class="row">
+			<div class="large-6 columns">
+				<p>© Catalian Labs 2015</p>
+			</div>
+			<div class="large-6 columns">
+				<ul class="inline-list right">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- <script src="foundation-5.5.2/js/vendor/jquery.js"></script> -->
+<script src="foundation-5.5.2/js/foundation.min.js"></script>
+<script>
 	
+</script>
 </body>
+</html>
