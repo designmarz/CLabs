@@ -76,6 +76,7 @@ a.postfix.button.expand:hover {
 
 .panel {
   zoom: 0.8;
+  background-color: #ffffff;
 }
 
 .table-icon {
@@ -90,4 +91,16 @@ table#details_table {
   border: none;	
   border-spacing: 0px;
   background-color: #C8C8C8;
+}
+
+.large {
+  zoom: 2;
+}
+
+a{
+	color: #2196F3;
+}
+
+a:hover {
+	color: #1976D2;
 }
